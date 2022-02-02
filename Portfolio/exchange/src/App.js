@@ -36,7 +36,7 @@ class App extends React.Component {
         </tr>
         </thead>
         <tbody>
-        <Stats languages="JavaScript, C++, Python, Solidity" age = {25} experience = {3}
+        <Stats languages="JavaScript, Rust, C++, Python, Solidity" age = {25} experience = {3}
         college = "Florida Gulf Coast University" holding="Bitcoin, XRP, Cardano" adjectives="Master Strategist, Change Agent, Creative" book="The Bitcoin Standard" />
         </tbody>
         </table>
@@ -45,7 +45,7 @@ class App extends React.Component {
 
         <footer>
         <p>
-        Young blockchain, traditional back-end developer, and Co-Founder of The Merlin Group. Change agent and strategist optimizing archaic business systems with new-aged technology. Personally and professionally invested in the re-emergence of functional medicine and broadening access to these revolutionary therapies and the herbal medicinal practices worldwide. Proficient in C++, JavaScript, and Python(Django, SQL).  I am also learning Rust and Bitcoin scripting for potential future applications. I am a researcher and a strategist. The analyst is required to analyze the parts; the strategist is required to see the pattern.
+        Young blockchain, traditional back-end developer, and Co-Founder of The Merlin Group. Change agent and strategist optimizing archaic business systems with new-aged technology. Personally and professionally invested in the re-emergence of functional medicine and broadening access to these revolutionary therapies and the herbal medicinal practices worldwide. Proficient in C++, Rust, JavaScript, and Python(Django, SQL).  I am also learning Bitcoin scripting for potential future applications. I am a researcher and a strategist. The analyst is required to analyze the parts; the strategist is required to see the pattern.
         </p>
   
        <a href="https://themerlingroup.github.io/SCP/"
