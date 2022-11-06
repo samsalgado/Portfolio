@@ -5,17 +5,15 @@ export default class Stats extends Component {
   constructor(props) {
     super(props);
     this.state = {
-      age: this.props.age,
       myStats: [
         {
          
          languages:'JavaScript, C++, Go, Rust, Python, Solidity',
-         age:25,
          experience:3,
          projects:'Red Art Splash, Portfolio Project, The Merlin Group, Go Blockchain, RustChain',
          holding:'Bitcoin, XRP',
          adjectives:'Manufacturing, Data Analytics, Wellness, Blockchain, Cybersecurity',
-         certifications:'JavaScript, Solidity, Python, Big Data, Hadoop'
+         certifications:'JavaScript, React, Solidity, Python, Big Data, Hadoop'
         }
       ]
     };
@@ -30,7 +28,6 @@ export default class Stats extends Component {
     return (
       <tr className="me-row">
         <td>{this.props.languages}</td>
-        <td>{this.props.age}</td>
         <td>{this.props.experience}</td>
         <td>{this.props.projects}</td>
         <td>{this.props.holding}</td>
@@ -42,7 +39,6 @@ export default class Stats extends Component {
 }
 Stats.propTypes = {
   languages: PropTypes.string,
-  age: PropTypes.number,
   experience: PropTypes.number,
   college: PropTypes.string,
   holding: PropTypes.string,

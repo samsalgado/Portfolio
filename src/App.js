@@ -33,7 +33,6 @@ const App = () => {
         <thead>
         <tr className='titles'>
         <th>Languages</th>
-        <th>Age</th>
         <th>Years of Experience</th>
         <th>Projects</th>
         <th>Coins I Hold</th>
@@ -42,8 +41,8 @@ const App = () => {
         </tr>
         </thead>
         <tbody>
-        <Stats languages="JavaScript, Rust, C++, Go, Python, Solidity" age = {25} experience = {3}
-         projects= "SCP(Portfolio Project), Red-Art Splash, The Merlin Group, Go Blockchain, RustChain" holding="Bitcoin, XRP, Cardano" adjectives="Manufacturing, Data Analytics, Wellness, Blockchain, Cybersecurity" certifications="JavaScript, Solidity, Python, Big Data, Hadoop" />
+        <Stats languages="JavaScript, Rust, C++, Go, Python, Solidity" experience = {3}
+         projects= "SCP(Portfolio Project), Red-Art Splash, The Merlin Group, Go Blockchain, RustChain" holding="Bitcoin, XRP, Cardano" adjectives="Manufacturing, Data Analytics, Wellness, Blockchain, Cybersecurity" certifications="JavaScript, React, Solidity, Python, Big Data, Hadoop" />
         </tbody>
         </table>
         </header>
@@ -53,27 +52,33 @@ const App = () => {
         <h2 className='centerfooter'>Project History</h2>
   
      
-      <div>
-        
+      <div className='center'>
    
-
-      <a href="https://samsalgado.github.io/SCP/"
+            <a href="https://samsalgado.github.io/SCP/"
         target="_blank"
         rel="noopener noreferrer"
       >
-        Portfolio Project
-      </a>
+        Portfolio Project </a>
+      
+
       <a href='http://www.redartsplash.com/'> Red-Art Splash</a>
 
-      <a href='https://www.themerlingroupworld.com'>The Merlin Group</a>
-      
-      <a href='https://github.com/samsalgado/Go-Blockchain'>Go Blockchain</a>
-           <a href='https://github.com/samsalgado/Rust-Chain'>Rust Chain</a>
+          <a href='https://www.themerlingroupworld.com'>The Merlin Group</a>
 
-            <a href='https://teachingtechnology12.gumroad.com/?_ga=2.128784204.1318804168.1662652584-15204'>Course</a>
-           <a href='https://profile.indeed.com/document/review'> Resume</a>
 
-      
+            <a href='https://github.com/samsalgado/Go-Blockchain'>Go Blockchain</a>
+
+
+                 <a href='https://github.com/samsalgado/Rust-Chain'>Rust Chain</a>
+
+
+                       <a href='https://teachingtechnology12.gumroad.com/?_ga=2.128784204.1318804168.1662652584-15204'>Course</a>
+
+
+                     <a href='https://profile.indeed.com/document/review'> Resume</a>
+
+
+
         </div>
         </footer>
 
