@@ -12,10 +12,10 @@ export default class Stats extends Component {
          languages:'JavaScript, C++, Go, Rust, Python, Solidity',
          age:25,
          experience:3,
-         college:'Florida Gulf Coast University',
+         projects:'Red Art Splash, Portfolio Project, The Merlin Group, Go Blockchain, RustChain',
          holding:'Bitcoin, XRP',
-         adjectives:'Master Strategist, Change Agent, Instructor',
-         book:'The Bitcoin Standard'
+         adjectives:'Manufacturing, Data Analytics, Wellness, Blockchain, Cybersecurity',
+         certifications:'JavaScript, Solidity, Python, Big Data, Hadoop'
         }
       ]
     };
@@ -32,10 +32,10 @@ export default class Stats extends Component {
         <td>{this.props.languages}</td>
         <td>{this.props.age}</td>
         <td>{this.props.experience}</td>
-        <td>{this.props.college}</td>
+        <td>{this.props.projects}</td>
         <td>{this.props.holding}</td>
         <td>{this.props.adjectives}</td>
-        <td>{this.props.book}</td>
+        <td>{this.props.certifications}</td>
       </tr>
     );
   }

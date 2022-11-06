@@ -11,14 +11,14 @@
     animation: App-logo-spin infinite 20s linear;
   }
 }
+.centerfooter{
+  text-align: center;
+}
 .me-table {
   color:#61dafb;
 }
 .social-container2{
-  float:left;
-  display: inline-flex;
-  display: flex;
-  margin-right: 700px;
+  justify-content: center;
 }
 
 
